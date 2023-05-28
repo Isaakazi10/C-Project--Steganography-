@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
         // For encoding the argument count has to within range of 4 and 5 else print error
         if (argc < 4 || argc > 5)
         {
-            printf("\n[-- ERROR --: ( Argument count should be withi range of 4 and 5 )--]\n");
+            printf("\n[-- ERROR --: ( Argument count should be within range of 4 and 5 )--]\n");
             return 0;
         }
 
